@@ -51,6 +51,7 @@ class RootWidget(TabbedPanel):
             self.status.text = "No serial port found"
             self.status.color = [1,0,0,1]
             print("No serial port found")
+            
 
     def disconnect(self):
         try:
